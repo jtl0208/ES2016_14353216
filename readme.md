@@ -14,6 +14,7 @@ The distributed Operation layer（DOL）is a software Development framework to p
 > $ sudo apt-get install unzip
 
 * 下载文件（使用VMware虚拟机）
+
 > $ sudo wget http://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.1.tgz
 
 > $ sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
@@ -51,8 +52,9 @@ The distributed Operation layer（DOL）is a software Development framework to p
 
 * 编译dol
   * 进入刚刚的dol文件夹，修改build.xml文件 
- 找到下面这段话，就是说上面编译的systemc位置在哪里
-> property name=”systemc.inc” value=”YYY/include” 
+    找到下面这段话，就是说上面编译的systemc位置在哪里
+
+  > property name=”systemc.inc” value=”YYY/include” 
 
 > property name=”systemc.lib” value=”YYY/lib-Linux/libsystemc.a”/
  
