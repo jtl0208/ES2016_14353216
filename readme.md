@@ -48,7 +48,8 @@ The distributed Operation layer（DOL）is a software Development framework to p
     ![1.png](http://upload-images.jianshu.io/upload_images/3250630-5a33b54d08584290.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
   * 记录当前工作路径
-> $ pwd
+
+    > $ pwd
 
 * 编译dol
   * 进入刚刚的dol文件夹，修改build.xml文件 
