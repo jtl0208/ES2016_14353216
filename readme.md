@@ -49,19 +49,20 @@ The distributed Operation layer（DOL）is a software Development framework to p
     ![1.png](http://upload-images.jianshu.io/upload_images/3250630-5a33b54d08584290.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
   * 记录当前工作路径
->$ pwd
+> $ pwd
 
 * 编译dol
   * 进入刚刚的dol文件夹，修改build.xml文件 
  找到下面这段话，就是说上面编译的systemc位置在哪里
 > property name=”systemc.inc” value=”YYY/include” 
+
 > property name=”systemc.lib” value=”YYY/lib-Linux/libsystemc.a”/
  
- * 编译
- 
+ * 编译 
 > $ ant -f build_zip.xml all
 
    若成功会显示build successful
+ 
  ![2.png](http://upload-images.jianshu.io/upload_images/3250630-67ecef1a9ca31bf2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 * Run examples
