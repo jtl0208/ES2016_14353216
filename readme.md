@@ -5,7 +5,6 @@ The distributed Operation layer（DOL）is a software Development framework to p
 
 ##安装过程
 * 安装必要的环境
-
 > $ sudo apt-get update
 
 > $ sudo apt-get install ant
@@ -15,7 +14,6 @@ The distributed Operation layer（DOL）is a software Development framework to p
 > $ sudo apt-get install unzip
 
 * 下载文件（使用VMware虚拟机）
-
 > $ sudo wget http://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.1.tgz
 > $ sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
 
@@ -72,6 +70,7 @@ The distributed Operation layer（DOL）is a software Development framework to p
 > $ ant -f runexample.xml -Dnumber=1
 
    结果如下：
+   
 ![3.png](http://upload-images.jianshu.io/upload_images/3250630-bb80705f3fed142f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ##实验感想
