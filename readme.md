@@ -15,6 +15,7 @@ The distributed Operation layer（DOL）is a software Development framework to p
 
 * 下载文件（使用VMware虚拟机）
 > $ sudo wget http://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.1.tgz
+
 > $ sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
 
 * 解压文件
