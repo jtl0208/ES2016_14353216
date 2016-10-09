@@ -5,13 +5,13 @@ The distributed Operation layer（DOL）is a software Development framework to p
 
 ##安装过程
 * 安装必要的环境
-> $ sudo apt-get update
+  > $ sudo apt-get update
 
-> $ sudo apt-get install ant
+  > $ sudo apt-get install ant
 
-> $ sudo apt-get install openjdk-7-jdk
+  > $ sudo apt-get install openjdk-7-jdk
 
-> $ sudo apt-get install unzip
+  > $ sudo apt-get install unzip
 
 * 下载文件（使用VMware虚拟机）
 
@@ -56,7 +56,7 @@ The distributed Operation layer（DOL）is a software Development framework to p
 
   > property name=”systemc.inc” value=”YYY/include” 
 
-> property name=”systemc.lib” value=”YYY/lib-Linux/libsystemc.a”/
+  > property name=”systemc.lib” value=”YYY/lib-Linux/libsystemc.a”/
  
  * 编译 
 > $ ant -f build_zip.xml all
