@@ -40,10 +40,12 @@ The distributed Operation layer（DOL）is a software Development framework to p
  * 新建一个临时文件夹objdir
 
 > $ mkdir objdir
- * 进入该文件下objdir
+ 
+  * 进入该文件下objdir
  
 > $ cd objdir
- * 运行configure
+ 
+  * 运行configure
  
 > $ ../configure CXX=g++ --disable-async-updates
 
@@ -63,6 +65,7 @@ The distributed Operation layer（DOL）is a software Development framework to p
 > property name=”systemc.inc” value=”YYY/include” 
 
 > property name=”systemc.lib” value=”YYY/lib-Linux/libsystemc.a”/
+ 
  * 编译
  
 > $ ant -f build_zip.xml all
