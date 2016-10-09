@@ -13,22 +13,32 @@ The distributed Operation layer（DOL）is a software Development framework to p
 
 > $ sudo apt-get install unzip
 
-* 下载文件（使用VMware虚拟机）.
+
+* 下载文件（使用VMware虚拟机）
+
 > $ sudo wget http://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.1.tgz
 
 > $ sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
 
 * 解压文件
  * 新建dol文件夹
+ 
 > $ mkdir dol
+
  * 将dolethz.zip解压到dol文件夹中
 > $ unzip dol_ethz.zip -d dol
+
  * 解压Systemc
+ 
 > $ tar -zxvf systemc-2.3.1.tgz
+
 * 编译Systemc
  * 解压后进入systemc-2.3.1的目录下
+ 
 > $ cd systemc-2.3.1
+ 
  * 新建一个临时文件夹objdir
+
 > $ mkdir objdir
  * 进入该文件下objdir
 > $ cd objdir
@@ -47,18 +57,23 @@ The distributed Operation layer（DOL）is a software Development framework to p
 > property name=”systemc.inc” value=”YYY/include” 
 property name=”systemc.lib” value=”YYY/lib-Linux/libsystemc.a”/
  * 编译
+ 
 > $ ant -f build_zip.xml all
 
    若成功会显示build successful
+   
  ![2.png](http://upload-images.jianshu.io/upload_images/3250630-67ecef1a9ca31bf2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 * Run examples
   * 进入build/bin/main路径下
+  
 > $ cd build/bin/main
   * 运行第一个例子
+  
 > $ ant -f runexample.xml -Dnumber=1
 
    结果如下：
+   
 ![3.png](http://upload-images.jianshu.io/upload_images/3250630-bb80705f3fed142f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ##实验感想
