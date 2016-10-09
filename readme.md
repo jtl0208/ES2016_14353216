@@ -41,21 +41,28 @@ The distributed Operation layer（DOL）is a software Development framework to p
 
 > $ mkdir objdir
  * 进入该文件下objdir
+ 
 > $ cd objdir
  * 运行configure
+ 
 > $ ../configure CXX=g++ --disable-async-updates
+
  * 编译
 > $ sudo make install
    
     ![1.png](http://upload-images.jianshu.io/upload_images/3250630-5a33b54d08584290.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
   * 记录当前工作路径
+
 >$ pwd
+
 * 编译dol
   * 进入刚刚的dol文件夹，修改build.xml文件 
  找到下面这段话，就是说上面编译的systemc位置在哪里
+ 
 > property name=”systemc.inc” value=”YYY/include” 
-property name=”systemc.lib” value=”YYY/lib-Linux/libsystemc.a”/
+
+> property name=”systemc.lib” value=”YYY/lib-Linux/libsystemc.a”/
  * 编译
  
 > $ ant -f build_zip.xml all
@@ -68,6 +75,7 @@ property name=”systemc.lib” value=”YYY/lib-Linux/libsystemc.a”/
   * 进入build/bin/main路径下
   
 > $ cd build/bin/main
+
   * 运行第一个例子
   
 > $ ant -f runexample.xml -Dnumber=1
