@@ -1,12 +1,4 @@
 #  LAB2实验报告-DOL配置
-</br>
-
-|||
-| - |:-:|
-| 课程 | 嵌入式系统实验|
-|专业方向|移动信工物联网|
-|姓名|卢锦涛|
-|学号|14353216|
 
 ##DOL（Distributed Operation Layer）
 The distributed Operation layer（DOL）is a software Development framework to program parallel applications  based on the Kahn process network model of computation and features a simulation engine based on SystemC.Moreover,the DOL provides an XML-based specification format to describe the implementation of a parallel application on a multi-processor systems,including binding and mapping. 
