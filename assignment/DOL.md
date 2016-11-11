@@ -24,10 +24,4 @@
 ### 实验感想
 
 按照PPT上做法，更改迭代次数的值便可完成该实验。
-![
-![
-![lab-example2.png](http://upload-images.jianshu.io/upload_images/3250630-355968b87c023b39.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-](http://upload-images.jianshu.io/upload_images/3250630-6cd1cb1570648257.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-](http://upload-images.jianshu.io/upload_images/3250630-7d1d39c8df70fef1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![lab-example2.png](http://upload-images.jianshu.io/upload_images/3250630-1f9bce6cde33bda5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
